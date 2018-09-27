@@ -1,0 +1,12 @@
+version: '3.6'
+
+services:
+    go-mail:
+        image: go-mail:latest
+        environment:
+            - PORT=5000
+        ports:
+            - 5000:5000
+        volumes:
+            - ./:/code
+        restart: always

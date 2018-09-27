@@ -1,0 +1,4 @@
+.config
+.idea/
+.fseventsd/
+go-mail
